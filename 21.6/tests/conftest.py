@@ -62,7 +62,6 @@ def log(func):
         with open(log_txt, 'a', encoding='utf8') as my_file:
             my_file.write(f'Name Func: {func.__name__}\n'
                           f'Headers of query: {value[2]["Headers of query"]}\n'
-
                           f'Path parametrs: {value[2]["Path parametrs"]}\n'
                           f'Query parametrs: {value[2]["Query parametrs"]}\n'
                           f'Query body: {value[2]["Query body"]}\n'
